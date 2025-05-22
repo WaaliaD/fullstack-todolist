@@ -12,7 +12,7 @@ async function start() {
         credentials: true,
     });
 
-    await app.listen(PORT, () => console.log(`Server started on PORT = ${PORT}`))
+    await app.listen(PORT, '0.0.0.0', () => console.log(`Server started on PORT = ${PORT}`))
 }
 
 start();

@@ -1,0 +1,7 @@
+docker_image = "cr.yandex/crp9otn5ftpiojs9kvlc<я хз, можно на свой вариант регистра докера поменять, наверн>/todolist-backend:latest"
+yc_token      = "ваш OAuth токен"
+yc_cloud_id   = "b1gja8jn8qu02no41794"
+yc_folder_id  = "b1g0mrjupkfeg8n58v17"
+project_id    = "todolist-prod"
+db_password   = "00000000"
+yc_iam_token = "<Получите новый IAM-токен: yc iam create-token>"
